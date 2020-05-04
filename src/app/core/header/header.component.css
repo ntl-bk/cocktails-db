@@ -1,0 +1,19 @@
+.top {
+  margin: 1% 0
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: Seaweed Script;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.51em;
+  color: #FF8A00;
+  align-self: center;
+  margin-right: 2rem;
+}

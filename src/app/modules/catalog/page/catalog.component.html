@@ -1,0 +1,10 @@
+<div class="main-content">
+  <div class="filters-list">
+    filters
+  </div>
+
+  <div class="items-list" >
+    <app-list *ngFor="let cocktails of drinks" [categoryTitle]="cocktails.category" [items]="cocktails.drink"></app-list>
+  </div>
+
+</div>

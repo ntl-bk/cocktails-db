@@ -1,0 +1,12 @@
+.main-content {
+  display: flex;
+  margin: 0 auto;
+}
+
+.filters-list {
+  flex: 1;
+}
+
+.items-list {
+  flex: 4;
+}

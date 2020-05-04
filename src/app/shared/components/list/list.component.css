@@ -1,0 +1,33 @@
+.cocktails-list {
+  margin: 60px;
+}
+.cocktails-list__category {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #818181;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.cocktails-list__items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-column-gap: 120px;
+  grid-row-gap: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1160px) {
+  .cocktails-list__items {
+   grid-template-columns: repeat(4, 200px);
+ }
+}
+
+@media screen and (max-width: 784px) {
+  .cocktails-list__items {
+    grid-template-columns: repeat(3, 200px);
+  }
+}

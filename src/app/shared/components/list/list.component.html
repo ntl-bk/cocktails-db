@@ -1,0 +1,9 @@
+<div class="cocktails-list">
+  <p class="cocktails-list__category">{{categoryTitle}}</p>
+  <hr>
+  <div class="cocktails-list__items" >
+    <app-list-item
+      *ngFor="let cocktail of items "
+      [cocktail]="cocktail" class="cocktails-list__cocktail-card"></app-list-item>
+  </div>
+</div>
